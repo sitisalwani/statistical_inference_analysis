@@ -50,11 +50,10 @@ ggplot(ToothGrowth, aes(factor(dose), len, fill = factor(dose))) +
       facet_grid(.~supp, labeller = as_labeller(
             c("OJ" = "Orange juice", 
               "VC" = "Ascorbic Acid"))) +
-      labs(title = "Tooth growth of 60 guinea pigs 
-           by dosage and\nby delivery method of vitamin C",
-           x = "Dose in milligrams/day", 
+      labs(x = "Dose in milligrams/day", 
            y = "Tooth Lengh") +
-      scale_fill_discrete(name = "Dosage of\nvitamin C\nin mg/day")
+      scale_fill_discrete(name = "Dosage of\nvitamin C\nin mg/day") +
+      ggtitle("Effect of Supplement Type and Dosage on Tooth Growth")
 ```
  
 #### 3. Use confidence intervals and/or hypothesis tests to compare tooth growth by supp and dose.
