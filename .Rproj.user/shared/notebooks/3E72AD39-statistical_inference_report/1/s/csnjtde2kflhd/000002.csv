@@ -1,7 +1,0 @@
-"0","ggplot(sampleMean_data, aes(sample_mean)) +"
-"0","        geom_histogram(aes(y=..density..), alpha=.5, position=""identity"", fill=""white"", col=""black"") +"
-"0","        geom_density(colour=""red"", size=1) +"
-"0","        stat_function(fun = dnorm, colour = ""green"", args = list(mean = theoretical_mean, sd = sqrt(theoretical_variance))) +"
-"0","        ggtitle (""Histogram of sample means with the fitting normal curve "") +"
-"0","        xlab(""Sample mean"") +"
-"0","        ylab(""Density"")"
