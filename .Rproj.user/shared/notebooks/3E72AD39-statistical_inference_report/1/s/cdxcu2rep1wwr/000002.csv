@@ -1,0 +1,7 @@
+"0","library(ggplot2)"
+"0","library(knitr)"
+"0","no_simulation <- 1000   # number of simulations "
+"0","lambda <-  0.2 "
+"0","n <- 40             # sample size"
+"0","simulated_data <- matrix(rexp(n= no_simulation*n,rate=lambda), no_simulation, n)"
+"0","sample_mean <- rowMeans(simulated_data)"

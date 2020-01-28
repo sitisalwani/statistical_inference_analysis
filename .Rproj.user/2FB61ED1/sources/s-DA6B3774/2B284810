@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580238443194.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4250204634",
+    "id" : "2B284810",
+    "lastKnownWriteTime" : 1580239075,
+    "last_content_update" : 1580239075436,
+    "path" : "~/Documents/Cousera/Course6/Project/Inference_Analysis_Project/statistical_inference_part2.Rmd",
+    "project_path" : "statistical_inference_part2.Rmd",
+    "properties" : {
+        "cursorPosition" : "1,16",
+        "last_setup_crc32" : "DA6B3774bb338d19",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

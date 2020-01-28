@@ -1,0 +1,2 @@
+"0","sampleMean_data <- as.data.frame (sample_mean)"
+"0"," ggplot(sampleMean_data, aes(sample_mean))+geom_histogram(alpha=.5, position=""identity"", col=""black"")+geom_vline(xintercept = theoretical_mean, colour=""red"",show.legend=TRUE)+geom_vline(xintercept = actual_mean, colour=""green"", show.legend=TRUE)+ggtitle (""Histogram of the sample means "")+xlab(""Sample mean"")+ylab(""Density"")"
